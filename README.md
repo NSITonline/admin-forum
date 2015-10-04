@@ -36,3 +36,21 @@ head over to [Mongo DB website](http://mongodb.org/downloads) and follow the ste
 
 # Installing MongoDB on a Windows machine
 Once you downloaded the right archive version for your system, unpack the archive file, and move the folder to C:\mongodb. MongoDB uses a default folder to store its files, and on Windows machine the default location is C:\data\db, so in order to create a new folder by using the command prompt (if you long for a better command prompt than what Windows offers by default, give the Console2 a try, and check out how to customize it), go to C:\ and execute:
+ccc
+
+#installing Mongo DB on a linux based machine
+
+Once you downloaded the right archive version for your system, unpack the archive file, and move the folder to your desired location (sure, you can put it on your desktop if you wish). MongoDB uses a default folder to store its files, and on Linux and Mac OS X machines the default location is /data/db, so in order to create a new folder by using your command-line tool you'll have to execute:
+-----------
+
+```
+$ mkdir -p /data/db
+```
+
+but most probably you'll have to do it with a sudo command because of permission errors. The -p flag creates the parent folder also, so in the command above, both data and db folders were created. Since the default storing folder is not in your home folder, you'll have to make sure you set yourself correct permissions for this folder, and you can do this by executing the following command:
+
+-----------
+
+```
+$ sudo chown -R $USER /data/db
+```
