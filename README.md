@@ -64,3 +64,50 @@ but most probably you'll have to do it with a sudo command because of permission
 ```
 $ sudo chown -R $USER /data/db
 ```
+
+#Step 4:
+
+Installing Node JS:
+
+Install [NodeJs](http://nodejs.org/download/)
+
+For a linux machine do the following:
+-----------
+
+```
+$ cd /usr/src
+$ wget http://nodejs.org/dist/v0.10.32/node-v0.10.32.tar.gz
+```
+Now, extract the archive and start the installation by executing the following commands:
+-----------
+
+```
+$ tar -zxf node-v0.10.32.tar.gz
+$ cd node-v0.10.32
+$ ./configure && make && sudo make install
+```
+# Check whether node is running or not by executing 
+-----------
+
+```
+$ node
+$ console.log('Hello World from Node.js');
+```
+which will output:
+
+-----------
+
+```
+Hello World from Node.js
+undefined
+
+```
+#Final step:
+
+Installing express:
+-----------
+
+```
+$ npm install -g express
+
+```
