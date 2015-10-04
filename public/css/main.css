@@ -1,0 +1,106 @@
+
+	.box {
+		background-color: white;
+		height: 250vh;
+		margin: 10%;		
+	}
+	
+	.box1 {
+		background-color: grey;
+		height: 100vh;
+		margin: 10%;	
+	}
+	#logo {
+		background: url("../img/logo.png");
+		background-repeat: no-repeat;
+		float:left;
+		background-position: 20% -200%;
+		height:60px;
+		width:300px;
+	}
+
+	.jumbotron {
+		margin-top: 5%;
+		max-width: 85%;
+	}
+	#forumDetails {
+		margin-left: 5%;
+		max-width: 100%;
+	}
+	#tfheader{
+		background-color:#c3dfef;
+	/*	margin-top: 8%;*/
+
+		/*margin-right: 15%;*/
+	}
+	.form-control {
+		width: 45%;
+	}
+	.tftextinput{
+		margin: 0;
+		padding: 5px 15px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:14px;
+		border:1px solid #0076a3; border-right:0px;
+		border-top-left-radius: 5px 5px;
+		border-bottom-left-radius: 5px 5px;
+	}
+	.tfbutton {
+		margin: 0;
+		padding: 5px 15px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:14px;
+		outline: none;
+		cursor: pointer;
+		text-align: center;
+		text-decoration: none;
+		color: #ffffff;
+		border: solid 1px #0076a3; border-right:0px;
+		background: #0095cd;
+		background: -webkit-gradient(linear, left top, left bottom, from(#00adee), to(#0078a5));
+		background: -moz-linear-gradient(top,  #00adee,  #0078a5);
+		border-top-right-radius: 5px 5px;
+		border-bottom-right-radius: 5px 5px;
+	}
+	.tfbutton:hover {
+		text-decoration: none;
+		background: #007ead;
+		background: -webkit-gradient(linear, left top, left bottom, from(#0095cc), to(#00678e));
+		background: -moz-linear-gradient(top,  #0095cc,  #00678e);
+	}
+	/* Fixes submit button height problem in Firefox */
+	.tfbutton::-moz-focus-inner {
+	  border: 0;
+	}
+	.tfclear{
+		clear:both;
+	}
+	 
+	#submitQues {
+			/*margin-right:5%;*/
+			float: right;
+			
+	}
+	#quesList {
+		/*position:fixed;*/
+		/*margin-top: 10%; 
+		margin-left: 10%;*/
+		padding-top: 10%;
+		padding-left: 10%;
+	}
+	
+	#qValue {
+		color:black;
+	}
+	.ques {
+		background-color: white;
+		/*max-width: 80%;*/
+	}
+	#footer {
+		margin-top: 10%;
+		margin-left: 50%;
+	}
+	.pagefooter {
+		margin-left: 45%;
+		margin-top: 10%;
+	}

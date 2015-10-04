@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title><%= title %></title>
+</head>
+<style type="text/css">
+	body {
+			background: url("./img/background.jpg");
+	    	  background-attachment: fixed;
+		  background-size: cover;
+		  margin: 0;
+		  min-height: 100%;
+		  padding: 0;
+	}
+
+
+</style>
+<body>
+    <h1><%= title %></h1>
+
+    <% if ( user ) { %>
+		<h2>Hello <%=user%> </h2>
+		<a href="/logout">Logout</a>
+	<% } else { %>
+		
+		<a href="/login">Login</a>
+	<% } %>
+
+    <img src="img/logo.png" alt="Nsitonline logo">
+</body>
+</html>

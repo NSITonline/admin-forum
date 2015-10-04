@@ -1,0 +1,149 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	  
+	<title>NsitOnline || Admin forum</title>
+	  <meta charset="utf-8">
+	  <meta name="author" content="Nitin kumar <knitin917@gmail.com>">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <link rel="stylesheet" href="css/main.css">
+	  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	  <script src="js/file1.js"></script>
+	  <style>
+	body {
+			background: url("./img/background.jpg");
+	    	  background-attachment: fixed;
+		  background-size: cover;
+		  margin: 0;
+		  min-height: 100%;
+		  padding: 0;
+	}
+
+	  </style>
+</head>	
+<body>
+	<div class="box" id="page">
+		<a href="http://www.nsitonline.in" id="logo"></a>
+		<br>
+		<div class="container">
+		<div class="jumbotron">
+		
+		
+		<div id="forumDetails">
+		
+		<h2>Admin Forum</h2>
+			<p>	
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+		</div>
+		
+		<div id="tfheader" style="float:left;">
+		<form id="tfnewsearch" method="get" action="http://www.google.com">
+		        <input type="text" class="tftextinput" name="q" size="21" maxlength="120" placeholder="Search Admin Forum"><input type="submit" value="search" class="tfbutton">
+		</form>
+	
+	
+	<div class="tfclear"></div>
+		
+	</div>
+				<button type="button" class="btn btn-info btn-lg" id="submitQues" data-toggle="modal" data-target="#myModal">Ask Your Query</button>
+
+		
+		</div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Type Your Query Below</h4><br>
+        </div>
+        <div class="modal-body">
+          <div class="container">
+			  <form role="form">
+			    <div class="form-group">
+			      
+			    <!--  <input class="form-control col-sm-3" id="inputsm" type="text">-->
+			    <div class="col-xs-4">
+        
+        <input class="form-control" id="quesinput" type="text">
+      </div>
+			    </div>
+			    
+			  </form>
+			</div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal" onclick="submitQues()">submit</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+		</div>
+		<!--<div class="box1" >-->
+			<div id="quesList">
+				<div class="ques">
+				<div id="q1">
+					<p id="qValue">&#8226 When will the original documents be returned after verification ? </p>
+					<a href="#" id"q1tag1"> Tag1 </a>
+					<a href="#" id="q1tag2">Tag2 </a>
+					<a href="#" id="q1tag3">Tag3 </a>
+					<br><br>
+					<p id="ans1">&#8226 After your 1st semester when they have been verified with concerned authorities.</p>			
+				</div>
+				</div>
+				<br><br>
+				<div class="ques">
+				<div id="q2">
+					<p id="qValue">&#8226 What is the procedure for getting a new I-card ? </p>
+					<a href="#" id"q1tag1"> Tag1 </a>
+					<a href="#" id="q1tag2">Tag2 </a>
+					<a href="#" id="q1tag3">Tag3 </a>
+					<br><br>
+					<p id="ans2">&#8226 You have to submit the photocopy of the FIR for the lost of your I-card to the administrative department.</p>			
+				</div>
+				</div>
+				<br><br>	
+				<div id="q3">
+					<p id="qValue">&#8226 What is the procedure for upgradation of branch ? </p>
+					<a href="#" id"q1tag1"> Tag1 </a>
+					<a href="#" id="q1tag2">Tag2 </a>
+					<a href="#" id="q1tag3">Tag3 </a>
+					<br><br>
+					<p id="ans3">&#8226 Upgradation to a new branch totally depends on your JEE-mains rank and not on your performance in 1st semester, along with this, even if you are eligible for an upgradation, you will have to attend classes (for 1st sem only) in the same branch which has been alloted to you.</p>			
+				</div>
+				<br>
+				<div id="q4">
+					<p id="qValue">&#8226 What is the procedure for upgradation of branch ?  ? </p>
+					<a href="#" id"q1tag1" style="color:white;"> Tag1 </a>
+					<a href="#" id="q1tag2" style="color:white;">Tag2 </a>
+					<a href="#" id="q1tag3" style="color:white;">Tag3 </a>
+					<br><br>
+					<p id="ans4">&#8226 Upgradation to a new branch totally depends on your JEE-mains rank and not on your performance in 1st semester, along with this, even if you are eligible for an upgradation, you will have to attend classes (for 1st sem only) in the same branch which has been alloted to you.</p>			
+				</div>
+				
+				</div>
+			
+			</div>
+		</div>
+		
+		
+	</div>	
+	<div class="pagefooter" >
+	<p>&#169 <a href="http://www.nsitonline.in">NsitOnline </a> 2015</p>
+	</div>
+</body>
+</html>
