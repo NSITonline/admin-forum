@@ -25,7 +25,7 @@ sudo npm install -g mean-cli
 ```
 
 Step 3:
-Installig Mongo DB:
+# Installing Mongo DB:#
 
 head over to [Mongo DB website](http://mongodb.org/downloads) and follow the steps written below:
 
