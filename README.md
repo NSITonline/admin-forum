@@ -25,8 +25,8 @@ sudo npm install -g mean-cli
 ```
 
 Step 3:
-# Installing Mongo DB:
-=============
+Installing Mongo DB:
+-------
 
 head over to [Mongo DB website](http://mongodb.org/downloads) and follow the steps written below:
 
@@ -35,8 +35,8 @@ head over to [Mongo DB website](http://mongodb.org/downloads) and follow the ste
 * Create the folder to store the database files (the default folder is /data/db)
 * Make sure port 27017 is free to use
 
-# Installing MongoDB on a Windows machine
-
+ Installing MongoDB on a Windows machine
+-------
 Once you downloaded the right archive version for your system, unpack the archive file, and move the folder to C:\mongodb. MongoDB uses a default folder to store its files, and on Windows machine the default location is C:\data\db, so in order to create a new folder by using the command prompt , go to C:\ and execute:
 -----------
 
