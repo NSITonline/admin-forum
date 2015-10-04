@@ -109,3 +109,25 @@ Installing express:
 $ npm install -g express
 
 ```
+
+#Final Words
+Try executing following from your terminal:
+
+-----------
+
+```
+$ npm install 
+
+```
+If this works then you are all set to go 
+else do this:
+-----------
+
+```
+$ npm install -g <package name>
+
+```
+where <package name> is the name of packages listed under dependencies in the package.json file
+
+
+
