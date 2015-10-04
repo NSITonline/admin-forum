@@ -1,7 +1,9 @@
 # admin-forum
 
 =============
-First of all, you will have to install NPM (node package manager) on you machine
+To run this project on your linux machine, you would need to have NPM (node package manager), Mongo DB, Express web framework and Node JS on you machine.
+
+Step 1: install NPM
 
 
 Installation for NPM
@@ -11,5 +13,10 @@ Installation for NPM
 sudo apt-get install npm
 ```
 
-Usage
------
+Step 2: Try this, if it works for your machine then you dont have to go for other steps. 
+
+Intallation for MEAN stack
+--------
+---
+sudo npm install -g mean-cli
+---
