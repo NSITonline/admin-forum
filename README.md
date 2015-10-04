@@ -35,8 +35,9 @@ head over to [Mongo DB website](http://mongodb.org/downloads) and follow the ste
 * Create the folder to store the database files (the default folder is /data/db)
 * Make sure port 27017 is free to use
 
- Installing MongoDB on a Windows machine
+ Installing MongoDB on a Windows machine:
 -------
+
 Once you downloaded the right archive version for your system, unpack the archive file, and move the folder to C:\mongodb. MongoDB uses a default folder to store its files, and on Windows machine the default location is C:\data\db, so in order to create a new folder by using the command prompt , go to C:\ and execute:
 -----------
 
@@ -45,7 +46,8 @@ C:\>mkdir data\db
 ```
 
 
-#installing Mongo DB on a linux based machine
+#installing Mongo DB on a linux based machine:
+-------
 
 Once you downloaded the right archive version for your system, unpack the archive file, and move the folder to your desired location (sure, you can put it on your desktop if you wish). MongoDB uses a default folder to store its files, and on Linux and Mac OS X machines the default location is /data/db, so in order to create a new folder by using your command-line tool you'll have to execute:
 -----------
