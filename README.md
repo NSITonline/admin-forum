@@ -25,6 +25,7 @@ sudo npm install -g mean-cli
 ```
 
 Step 3:
+
 Installing Mongo DB:
 -------
 
