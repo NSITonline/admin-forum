@@ -12,10 +12,13 @@
 		  min-height: 100%;
 		  padding: 0;
 	}
-
+	#indexcontent{
+		float: right;
+	}
 
 </style>
 <body>
+  <div id="indexcontent">
     <h1><%= title %></h1>
 
     <% if ( user ) { %>
@@ -27,5 +30,6 @@
 	<% } %>
 
     <img src="img/logo.png" alt="Nsitonline logo">
+</div>
 </body>
 </html>
