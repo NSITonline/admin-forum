@@ -35,6 +35,7 @@ head over to [Mongo DB website](http://mongodb.org/downloads) and follow the ste
 * Make sure port 27017 is free to use
 
 # Installing MongoDB on a Windows machine
+
 Once you downloaded the right archive version for your system, unpack the archive file, and move the folder to C:\mongodb. MongoDB uses a default folder to store its files, and on Windows machine the default location is C:\data\db, so in order to create a new folder by using the command prompt (if you long for a better command prompt than what Windows offers by default, give the Console2 a try, and check out how to customize it), go to C:\ and execute:
 ccc
 
