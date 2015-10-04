@@ -124,10 +124,10 @@ else do this:
 -----------
 
 ```
-$ npm install -g <package name>
+$ npm install -g package name
 
 ```
-where <package name> is the name of packages listed under dependencies in the package.json file
+where package name is the name of packages listed under dependencies in the package.json file
 
 
 
