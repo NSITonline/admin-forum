@@ -15,8 +15,9 @@ sudo apt-get install npm
 
 Step 2: Try this, if it works for your machine then you dont have to go for other steps. 
 
-Intallation for MEAN stack
---------
+
+Installation for Mean stack
+-----------
 ---
 sudo npm install -g mean-cli
 ---
